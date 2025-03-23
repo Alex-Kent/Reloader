@@ -1015,6 +1015,7 @@ class Reloader:
 
     def unwatchCallback(self):
         """
+        CALLBACK
         Stop watching selected layer(s) for changes.
         Called when user selects "Stop watching layer(s) for changes"
         All layers backed by the same file as one of the selected layers will
